@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid.Api", "CovidData\Covid.Api.csproj", "{BE4A0505-86FF-4B07-80A1-9A5E4CD1F792}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid.Data", "Covid.Data\Covid.Data.csproj", "{E84E08F8-814F-4EA7-8925-623F7A2D4FD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid.Importer", "Covid.Importer\Covid.Importer.csproj", "{ECC37AD6-5D2D-4755-93AE-6F38D8AED42D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid.Business", "CovidData.Business\Covid.Business.csproj", "{8B9ADA37-48B4-4E69-87A9-517E4FBDB699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid.Integration.Test", "Covid.Integration.Test\Covid.Integration.Test.csproj", "{BEC9E818-E244-4251-9670-BB6CF74AC07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid.Unit.Test", "Covid.Unit.Test\Covid.Unit.Test.csproj", "{E9932842-EB4E-47E9-959E-2339AF938F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B872D88-F5F4-4D02-8E1B-F7E7297CE8BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE4A0505-86FF-4B07-80A1-9A5E4CD1F792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4A0505-86FF-4B07-80A1-9A5E4CD1F792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4A0505-86FF-4B07-80A1-9A5E4CD1F792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4A0505-86FF-4B07-80A1-9A5E4CD1F792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E08F8-814F-4EA7-8925-623F7A2D4FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E08F8-814F-4EA7-8925-623F7A2D4FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E08F8-814F-4EA7-8925-623F7A2D4FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E08F8-814F-4EA7-8925-623F7A2D4FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC37AD6-5D2D-4755-93AE-6F38D8AED42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC37AD6-5D2D-4755-93AE-6F38D8AED42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC37AD6-5D2D-4755-93AE-6F38D8AED42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC37AD6-5D2D-4755-93AE-6F38D8AED42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9ADA37-48B4-4E69-87A9-517E4FBDB699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9ADA37-48B4-4E69-87A9-517E4FBDB699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9ADA37-48B4-4E69-87A9-517E4FBDB699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9ADA37-48B4-4E69-87A9-517E4FBDB699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC9E818-E244-4251-9670-BB6CF74AC07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC9E818-E244-4251-9670-BB6CF74AC07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC9E818-E244-4251-9670-BB6CF74AC07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC9E818-E244-4251-9670-BB6CF74AC07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9932842-EB4E-47E9-959E-2339AF938F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9932842-EB4E-47E9-959E-2339AF938F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9932842-EB4E-47E9-959E-2339AF938F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9932842-EB4E-47E9-959E-2339AF938F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEC9E818-E244-4251-9670-BB6CF74AC07B} = {6B872D88-F5F4-4D02-8E1B-F7E7297CE8BD}
+		{E9932842-EB4E-47E9-959E-2339AF938F5E} = {6B872D88-F5F4-4D02-8E1B-F7E7297CE8BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE468E16-6E80-4526-AD95-970A3AB34007}
+	EndGlobalSection
+EndGlobal
